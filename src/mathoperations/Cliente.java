@@ -3,13 +3,11 @@ package mathoperations;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
 public class Cliente {
-
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
 		Operator op = new Operator();
         Scanner teclado = new Scanner(System.in);
@@ -35,7 +33,5 @@ public class Cliente {
         saida.close();
         teclado.close();
         s.close();
-
 	}
-
 }

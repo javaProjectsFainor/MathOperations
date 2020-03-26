@@ -3,6 +3,10 @@ package mathoperations;
 import java.io.Serializable;
 
 public class Operator implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private double fistValue;
 	private double secondValue;
 	private char operation;
